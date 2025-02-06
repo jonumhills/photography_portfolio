@@ -25,7 +25,7 @@ const TestEmail: React.FC = () => {
     emailjs.send(serviceId, templateId, templateParams, userId).then(
       (response) => {
         console.log("Message sent successfully", response);
-        setStatus("Message sent successfully!");
+        setStatus("Message sent successfully !");
       },
       (error) => {
         console.error("Error sending message", error);
