@@ -17,7 +17,7 @@ import p19p from "./portrait/p19p.JPG";
 import p20p from "./portrait/p20p.JPG";
 import us1 from "./urban and street/us1.JPG";
 import us2 from "./urban and street/us2.JPG";
-import us3 from "./urban and street/us3.JPG";
+import us3 from "./urban and street/us3.jpg";
 import us4 from "./urban and street/us4.JPG";
 import us5 from "./urban and street/us5.JPG";
 import us6 from "./urban and street/us6.JPG";
