@@ -49,8 +49,6 @@ import l7p from "./lifestyle/l7p.JPG";
 
 interface Image {
   url: string;
-  title: string;
-  description: string;
   orientation: "portrait" | "landscape";
 }
 
@@ -76,38 +74,26 @@ export const galleryData: GalleryData = {
       images: [
         {
           url: l1p,
-          title: "Mountain Lake",
-          description: "Serene mountain lake at sunset",
           orientation: "portrait",
         },
         {
           url: l2p,
-          title: "Valley View",
-          description: "Misty morning in the valley",
           orientation: "portrait",
         },
         {
           url: l3p,
-          title: "Rolling Hills",
-          description: "Green rolling hills at dawn",
           orientation: "portrait",
         },
         {
           url: l4p,
-          title: "Mountain Range",
-          description: "Snow-capped mountain range",
           orientation: "portrait",
         },
         {
           url: l5p,
-          title: "",
-          description: "",
           orientation: "portrait",
         },
         {
           url: l7p,
-          title: "",
-          description: "",
           orientation: "portrait",
         },
       ],
@@ -120,62 +106,42 @@ export const galleryData: GalleryData = {
       images: [
         {
           url: p1,
-          title: "Natural Light Portrait",
-          description: "Portrait in soft natural lighting",
           orientation: "portrait",
         },
         {
           url: p3,
-          title: "Studio Portrait",
-          description: "Professional studio lighting portrait",
           orientation: "portrait",
         },
         {
           url: p4,
-          title: "Natural Expression",
-          description: "Capturing genuine emotions",
           orientation: "portrait",
         },
         {
           url: p5,
-          title: "Urban Portrait",
-          description: "Portrait against city backdrop",
           orientation: "portrait",
         },
         {
           url: p6p,
-          title: "Urban Portrait",
-          description: "Portrait against city backdrop",
           orientation: "portrait",
         },
         {
           url: p7p,
-          title: "Urban Portrait",
-          description: "Portrait against city backdrop",
           orientation: "portrait",
         },
         {
           url: p9p,
-          title: "Urban Portrait",
-          description: "Portrait against city backdrop",
           orientation: "portrait",
         },
         {
           url: p10p,
-          title: "Urban Portrait",
-          description: "Portrait against city backdrop",
           orientation: "portrait",
         },
         {
           url: p11p,
-          title: "Urban Portrait",
-          description: "Portrait against city backdrop",
           orientation: "portrait",
         },
         {
           url: p12p,
-          title: "Urban Portrait",
-          description: "Portrait against city backdrop",
           orientation: "portrait",
         },
       ],
@@ -188,20 +154,14 @@ export const galleryData: GalleryData = {
       images: [
         {
           url: n5l,
-          title: "Spring Flowers",
-          description: "Colorful wildflowers in bloom",
           orientation: "landscape",
         },
         {
           url: n2,
-          title: "Forest Canopy",
-          description: "Sunlight through tree canopy",
           orientation: "landscape",
         },
         {
           url: n3,
-          title: "Morning Dew",
-          description: "Macro shot of morning dew on leaf",
           orientation: "landscape",
         },
         {
@@ -212,14 +172,10 @@ export const galleryData: GalleryData = {
         },
         {
           url: n7p,
-          title: "Autumn Colors",
-          description: "Fall foliage in peak color",
           orientation: "portrait",
         },
         {
           url: n8p,
-          title: "Autumn Colors",
-          description: "Fall foliage in peak color",
           orientation: "portrait",
         },
       ],
@@ -232,38 +188,26 @@ export const galleryData: GalleryData = {
       images: [
         {
           url: us1,
-          title: "City Lights",
-          description: "Night cityscape with illuminated buildings",
           orientation: "landscape",
         },
         {
           url: us2,
-          title: "Urban Architecture",
-          description: "Modern architectural details",
           orientation: "landscape",
         },
         {
           url: us3,
-          title: "Street Photography",
-          description: "Life in the urban jungle",
           orientation: "landscape",
         },
         {
           url: us4,
-          title: "City Reflection",
-          description: "Urban landscape reflected in water",
           orientation: "portrait",
         },
         {
           url: us5,
-          title: "Skyscrapers",
-          description: "Modern city skyline at sunset",
           orientation: "portrait",
         },
         {
           url: us6,
-          title: "Skyscrapers",
-          description: "Modern city skyline at sunset",
           orientation: "portrait",
         },
       ],
@@ -276,38 +220,26 @@ export const galleryData: GalleryData = {
       images: [
         {
           url: m1p,
-          title: "",
-          description: "",
           orientation: "portrait",
         },
         {
           url: m2p,
-          title: "Lion Portrait",
-          description: "Close-up of lion face",
           orientation: "portrait",
         },
         {
           url: m3p,
-          title: "Elephants",
-          description: "Family of elephants walking",
           orientation: "portrait",
         },
         {
           url: m6p,
-          title: "Deer",
-          description: "Deer in morning mist",
           orientation: "portrait",
         },
         {
           url: m8p,
-          title: "Deer",
-          description: "Deer in morning mist",
           orientation: "portrait",
         },
         {
           url: m9p,
-          title: "Deer",
-          description: "Deer in morning mist",
           orientation: "portrait",
         },
       ],
@@ -320,20 +252,14 @@ export const galleryData: GalleryData = {
       images: [
         {
           url: a1p,
-          title: "Modern Building",
-          description: "Contemporary architectural design",
           orientation: "portrait",
         },
         {
           url: a2p,
-          title: "Historic Architecture",
-          description: "Classical European building",
           orientation: "portrait",
         },
         {
           url: a3p,
-          title: "Geometric Patterns",
-          description: "Abstract architectural details",
           orientation: "portrait",
         },
       ],
